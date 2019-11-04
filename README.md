@@ -22,3 +22,21 @@ Here should appear a kinda ***command line*** window, this is were you will writ
 import pandas as pd
 ```
 and click `Run` button
+
+2. Import another ***module*** called **pyplot** from the **matplotlib** library, this will help as to plot some cool graphs. Writte this command:
+```
+from matplotlib import pyplot as plt
+```
+and click `Run` button
+
+3. To work with the data, firstly we have to import it and stock it into a variable. Writte this command:
+```
+sample_data = pd.read_csv('winequality-white.csv')
+```
+Inside the parantases write your file name and click `Run` button
+
+4. To see the whole table just writte the variable name and hit `Run` button. In this case
+```
+sample_data
+```
+If the file is valid you should see the table in a very friendly way.
