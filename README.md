@@ -17,7 +17,6 @@ To install **Anaconda** just search for **Anaconda Python** or acces directly th
 ### Vizualization of data
 Here should appear a kinda ***command line*** window, this is were you will writte our commands for visualization data.
 Now we have to import some libraries to work with. First we will import **Panda Library**.
-
-```
+`
 import pandas as pd
-```
+`
